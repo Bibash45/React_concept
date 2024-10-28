@@ -1,12 +1,13 @@
-import heroImg from "../assets/hero.svg";
+// import heroImg from "../assets/hero.svg";
+import heroImg from "../assets/haha.png";
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
-import React from "react";
+
 
 const Hero = () => {
   return (
-    <div className=" bg-emerald-100 py-24">
+    <div className=" bg-emerald-100 pt-24">
       <div className="align-element grid md:grid-cols-2 items-center gap-8">
-        <article>
+        <article >
           <h1 className="text-7xl font-bold tracking-wider">I's Bibash</h1>
           <p className="mt-4 text-3xl text-slate-700 capitalize tracking-wide">
             Front-end developer
@@ -27,7 +28,7 @@ const Hero = () => {
           </div>
         </article>
         <article className="hidden md:block">
-            <img src={heroImg} className="h-80 lg:h-96" />
+            <img src={heroImg} className="hero-image" />
         </article>
       </div>
     </div>
